@@ -1,4 +1,6 @@
-use crate::contracts::{PropertyManagement, ShareManagement, IncomeDistribution};
+use citadel_estates::contracts::property_management::PropertyManagement;
+use citadel_estates::contracts::share_management::ShareManagement;
+use citadel_estates::contracts::income_distribution::IncomeDistribution;
 use near_sdk::Balance;
 use near_sdk::near_bindgen;
 
